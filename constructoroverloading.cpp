@@ -10,5 +10,5 @@ public:
 mahasiswa();
 mahasiswa(int);
 mahasiswa(string);
-mahasiswa(int nim, string nama);
+mahasiswa(int inim, string inama);
 };
