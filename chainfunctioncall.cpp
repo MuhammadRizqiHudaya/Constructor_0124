@@ -10,4 +10,13 @@ class buku{
     string perjudul(){
         return this->judul;
     }
+    string getjudul(){
+        return this->judul;
+    }
 };
+
+int main(){
+    buku bukunya;
+    cout << bukunya.setjudul("matematika").getjudul();
+    return 0;
+}
