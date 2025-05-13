@@ -20,3 +20,7 @@ mahasiswa :: mahasiswa(){
 mahasiswa :: mahasiswa(int inim){
     nim = inim;
 }
+
+mahasiswa :: mahasiswa(string inama){
+    nama = inama;
+}
