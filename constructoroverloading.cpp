@@ -11,4 +11,12 @@ mahasiswa();
 mahasiswa(int);
 mahasiswa(string);
 mahasiswa(int inim, string inama);
+void cetak();
 };
+
+mahasiswa :: mahasiswa(){
+}
+
+mahasiswa :: mahasiswa(int inim){
+    nim = inim;
+}
