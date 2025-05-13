@@ -34,5 +34,11 @@ void mahasiswa::cetak(){
 int main (){
     mahasiswa mhs1(102030);
     mahasiswa mhs2("andi");
-    
+    mahasiswa mhs3(010203, "santi");
+
+    cout << "mahasiswa 1 :"; mhs1.cetak();
+    cout << "mahasiswa 2 :"; mhs2.cetak();
+    cout << "mahasiswa 3 :"; mhs3.cetak();
+
+    return 0;
 }
