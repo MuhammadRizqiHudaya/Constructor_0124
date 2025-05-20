@@ -4,22 +4,22 @@ using namespace std;
 
 class barang {
 private:
-    string namabarang;
-    int kodebarang;
+    string namaBarang;
+    int kodeBarang;
 
 public:
  
-  Barang(int a, string b);
+  barang(string nama, int kode);
 
     void cetak();
 };
-Barang::Barang(int a, string b)
+barang::barang(string nama, int kode)
 {
-    kodeBarang = a;
-    namaBarang = b;
+    namaBarang = nama;
+    kodeBarang = kode;
 }
 
-void Barang::cetak(){
+void barang::cetak(){
     cout << "Constructor Dengan Parameter Terpanggil" << endl;
     cout << "Nama Barang    : " << namaBarang << endl;
     cout << "Kode Barang    : " << kodeBarang << endl;
@@ -27,7 +27,7 @@ void Barang::cetak(){
 
 int main() {
    
-    barang brg("roti", "12345");
+    barang brg( "roti", 12345);
 
    
     brg.cetak();
